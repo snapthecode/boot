@@ -1,2 +1,8 @@
-타임리프 fragments
+1.타임리프 fragments
 http://yoonbumtae.com/?p=2609
+
+2.타임리프 api docs, usage
+https://www.thymeleaf.org/doc/tutorials/3.0/thymeleafspring.html#the-controller
+
+3.스프링+시큐리티
+https://technology-share.tistory.com/20
