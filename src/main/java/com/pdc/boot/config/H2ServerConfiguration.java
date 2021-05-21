@@ -18,14 +18,17 @@ public class H2ServerConfiguration {
     @ConfigurationProperties("spring.datasource.hikari")
     public DataSource dataSource() throws SQLException {
         Server server = defaultRun();
+
         return new HikariDataSource();
     }
 
     private Server defaultRun() throws SQLException {
+        System.out.println("=========>>>> " + defaultRun().getPort());
         return Server.createTcpServer(
                 "-tcp",
                 "-tcpAllowOthers",
                 "-ifNotExists",
-                "-tcpPort", 9092 + "").start();
+                "-tcpPort", 8001 + "").start();
+
     }
 }
