@@ -58,7 +58,16 @@
             <artifactId>jackson-databind</artifactId>
             <version>2.10.3</version>
         </dependency>
+        <!-- QueryDsl 관련 라이브러리 2개-->
+        <dependency>
+            <groupId>com.querydsl</groupId>
+            <artifactId>querydsl-jpa</artifactId>
+        </dependency>
 
+        <dependency>
+            <groupId>com.querydsl</groupId>
+            <artifactId>querydsl-apt</artifactId>
+        </dependency>
         <!--        added-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
