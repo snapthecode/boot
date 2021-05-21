@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head th:replace="fragments/common :: html-head">
+</head>
+<body>
+<div class="container">
+    <div th:replace="fragments/common :: header">-- thymeleaf header will be inserted here. --</div>
+
+
+    <h1>테스트 </h1>
+    <h1 th:text="${user.name}"></h1>
+    <h1 th:text="${user.age}"></h1>
+    <div th:replace="fragments/common :: footer">-- thymeleaf footer will be inserted here. --</div>
+</div>
+</body>
+</html>
