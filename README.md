@@ -1,8 +1,10 @@
 # 스프링 부트 / 타임리프로 만드는 포트폴리오
 #### 설정
-1. orm
-- jpa, h2, [mariadb]
-2. etc
+1. db
+- mariadb
+3. orm
+- jpa-hibernate,querydsl/ h2는 셋팅이 번거로운듯
+4. etc
 - securtity
 
 ### 코드 상태
